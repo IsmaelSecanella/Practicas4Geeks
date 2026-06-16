@@ -1,0 +1,14 @@
+Ticket #4521 - Problema con el cobro de la suscripción
+Estado: abierto
+Cliente: Diego Fernández (diego.fdez@gmail.com)
+Teléfono de contacto: 600 123 456
+
+Mensaje del cliente:
+"Hola, me habéis cobrado dos veces este mes. Mi tarjeta es la
+4539 1488 0343 6467, caduca 09/27. ¿Podéis revisarlo? Os dejo también
+la tarjeta de mi pareja por si hiciera falta: 5500 0055 5555 5559."
+
+Nota interna del agente de soporte:
+Verificado el cargo con el número de pedido 1234 5678 9012 3456 (esto NO es
+una tarjeta, es el identificador interno del pedido).
+Reembolso aprobado por ana.garcia@innova.es el 12/06/2026.

@@ -1,0 +1,31 @@
+file,line,type,label,sensitivity,masked_value
+sample-data\hr\employees.csv,2,EMAIL,Email address,MEDIUM,an*.******@******.es
+sample-data\hr\employees.csv,2,DNI_NIE,Spanish national ID (DNI/NIE),HIGH,12*****8Z
+sample-data\hr\employees.csv,2,IBAN,Bank account (IBAN),HIGH,ES********************32
+sample-data\hr\employees.csv,2,PHONE_ES,Spanish phone number,MEDIUM,+34 *** *** *78
+sample-data\hr\employees.csv,3,EMAIL,Email address,MEDIUM,br***.******@******.es
+sample-data\hr\employees.csv,3,DNI_NIE,Spanish national ID (DNI/NIE),HIGH,53*****4F
+sample-data\hr\employees.csv,3,IBAN,Bank account (IBAN),HIGH,ES********************92
+sample-data\hr\employees.csv,3,PHONE_ES,Spanish phone number,MEDIUM,63* *** *44
+sample-data\hr\employees.csv,4,EMAIL,Email address,MEDIUM,ca***.****@******.es
+sample-data\hr\employees.csv,4,DNI_NIE,Spanish national ID (DNI/NIE),HIGH,11*****1H
+sample-data\hr\employees.csv,4,IBAN,Bank account (IBAN),HIGH,ES********************45
+sample-data\hr\employees.csv,4,PHONE_ES,Spanish phone number,MEDIUM,+34 *** *** *03
+sample-data\hr\employees.csv,5,EMAIL,Email address,MEDIUM,da***.****@******.es
+sample-data\hr\employees.csv,5,DNI_NIE,Spanish national ID (DNI/NIE),HIGH,00*****1R
+sample-data\hr\employees.csv,5,IBAN,Bank account (IBAN),HIGH,ES********************32
+sample-data\hr\employees.csv,5,PHONE_ES,Spanish phone number,MEDIUM,62* *** *00
+sample-data\logs\access.log,1,EMAIL,Email address,MEDIUM,an*.******@******.es
+sample-data\logs\access.log,3,EMAIL,Email address,MEDIUM,br***.******@******.es
+sample-data\logs\access.log,4,EMAIL,Email address,MEDIUM,ca***.****@******.es
+sample-data\logs\access.log,5,API_TOKEN,API token / key,HIGH,sk-****-*******************kl
+sample-data\meeting-notes.md,5,EMAIL,Email address,MEDIUM,el***.*****@***********.*om
+sample-data\meeting-notes.md,5,PHONE_ES,Spanish phone number,MEDIUM,+34 *** *** *77
+sample-data\meeting-notes.md,6,IBAN,Bank account (IBAN),HIGH,ES********************92
+sample-data\meeting-notes.md,7,DNI_NIE,Spanish national ID (DNI/NIE),HIGH,00*****1R
+sample-data\meeting-notes.md,11,CREDIT_CARD,Credit card,HIGH,37***********05
+sample-data\support\ticket-4521.txt,3,EMAIL,Email address,MEDIUM,di***.****@*****.*om
+sample-data\support\ticket-4521.txt,4,PHONE_ES,Spanish phone number,MEDIUM,60* *** *56
+sample-data\support\ticket-4521.txt,8,CREDIT_CARD,Credit card,HIGH,45** **** **** **67
+sample-data\support\ticket-4521.txt,9,CREDIT_CARD,Credit card,HIGH,55** **** **** **59
+sample-data\support\ticket-4521.txt,14,EMAIL,Email address,MEDIUM,an*.******@******.es

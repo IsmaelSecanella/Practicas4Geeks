@@ -1,0 +1,259 @@
+{
+  "summary": {
+    "total": 30,
+    "by_type": {
+      "EMAIL": 10,
+      "DNI_NIE": 5,
+      "IBAN": 5,
+      "PHONE_ES": 6,
+      "API_TOKEN": 1,
+      "CREDIT_CARD": 3
+    },
+    "by_level": {
+      "MEDIUM": 16,
+      "HIGH": 14
+    }
+  },
+  "findings": [
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 2,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "an*.******@******.es"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 2,
+      "type": "DNI_NIE",
+      "label": "Spanish national ID (DNI/NIE)",
+      "sensitivity": "HIGH",
+      "masked_value": "12*****8Z"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 2,
+      "type": "IBAN",
+      "label": "Bank account (IBAN)",
+      "sensitivity": "HIGH",
+      "masked_value": "ES********************32"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 2,
+      "type": "PHONE_ES",
+      "label": "Spanish phone number",
+      "sensitivity": "MEDIUM",
+      "masked_value": "+34 *** *** *78"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 3,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "br***.******@******.es"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 3,
+      "type": "DNI_NIE",
+      "label": "Spanish national ID (DNI/NIE)",
+      "sensitivity": "HIGH",
+      "masked_value": "53*****4F"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 3,
+      "type": "IBAN",
+      "label": "Bank account (IBAN)",
+      "sensitivity": "HIGH",
+      "masked_value": "ES********************92"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 3,
+      "type": "PHONE_ES",
+      "label": "Spanish phone number",
+      "sensitivity": "MEDIUM",
+      "masked_value": "63* *** *44"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 4,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "ca***.****@******.es"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 4,
+      "type": "DNI_NIE",
+      "label": "Spanish national ID (DNI/NIE)",
+      "sensitivity": "HIGH",
+      "masked_value": "11*****1H"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 4,
+      "type": "IBAN",
+      "label": "Bank account (IBAN)",
+      "sensitivity": "HIGH",
+      "masked_value": "ES********************45"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 4,
+      "type": "PHONE_ES",
+      "label": "Spanish phone number",
+      "sensitivity": "MEDIUM",
+      "masked_value": "+34 *** *** *03"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 5,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "da***.****@******.es"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 5,
+      "type": "DNI_NIE",
+      "label": "Spanish national ID (DNI/NIE)",
+      "sensitivity": "HIGH",
+      "masked_value": "00*****1R"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 5,
+      "type": "IBAN",
+      "label": "Bank account (IBAN)",
+      "sensitivity": "HIGH",
+      "masked_value": "ES********************32"
+    },
+    {
+      "file": "sample-data\\hr\\employees.csv",
+      "line": 5,
+      "type": "PHONE_ES",
+      "label": "Spanish phone number",
+      "sensitivity": "MEDIUM",
+      "masked_value": "62* *** *00"
+    },
+    {
+      "file": "sample-data\\logs\\access.log",
+      "line": 1,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "an*.******@******.es"
+    },
+    {
+      "file": "sample-data\\logs\\access.log",
+      "line": 3,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "br***.******@******.es"
+    },
+    {
+      "file": "sample-data\\logs\\access.log",
+      "line": 4,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "ca***.****@******.es"
+    },
+    {
+      "file": "sample-data\\logs\\access.log",
+      "line": 5,
+      "type": "API_TOKEN",
+      "label": "API token / key",
+      "sensitivity": "HIGH",
+      "masked_value": "sk-****-*******************kl"
+    },
+    {
+      "file": "sample-data\\meeting-notes.md",
+      "line": 5,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "el***.*****@***********.*om"
+    },
+    {
+      "file": "sample-data\\meeting-notes.md",
+      "line": 5,
+      "type": "PHONE_ES",
+      "label": "Spanish phone number",
+      "sensitivity": "MEDIUM",
+      "masked_value": "+34 *** *** *77"
+    },
+    {
+      "file": "sample-data\\meeting-notes.md",
+      "line": 6,
+      "type": "IBAN",
+      "label": "Bank account (IBAN)",
+      "sensitivity": "HIGH",
+      "masked_value": "ES********************92"
+    },
+    {
+      "file": "sample-data\\meeting-notes.md",
+      "line": 7,
+      "type": "DNI_NIE",
+      "label": "Spanish national ID (DNI/NIE)",
+      "sensitivity": "HIGH",
+      "masked_value": "00*****1R"
+    },
+    {
+      "file": "sample-data\\meeting-notes.md",
+      "line": 11,
+      "type": "CREDIT_CARD",
+      "label": "Credit card",
+      "sensitivity": "HIGH",
+      "masked_value": "37***********05"
+    },
+    {
+      "file": "sample-data\\support\\ticket-4521.txt",
+      "line": 3,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "di***.****@*****.*om"
+    },
+    {
+      "file": "sample-data\\support\\ticket-4521.txt",
+      "line": 4,
+      "type": "PHONE_ES",
+      "label": "Spanish phone number",
+      "sensitivity": "MEDIUM",
+      "masked_value": "60* *** *56"
+    },
+    {
+      "file": "sample-data\\support\\ticket-4521.txt",
+      "line": 8,
+      "type": "CREDIT_CARD",
+      "label": "Credit card",
+      "sensitivity": "HIGH",
+      "masked_value": "45** **** **** **67"
+    },
+    {
+      "file": "sample-data\\support\\ticket-4521.txt",
+      "line": 9,
+      "type": "CREDIT_CARD",
+      "label": "Credit card",
+      "sensitivity": "HIGH",
+      "masked_value": "55** **** **** **59"
+    },
+    {
+      "file": "sample-data\\support\\ticket-4521.txt",
+      "line": 14,
+      "type": "EMAIL",
+      "label": "Email address",
+      "sensitivity": "MEDIUM",
+      "masked_value": "an*.******@******.es"
+    }
+  ]
+}

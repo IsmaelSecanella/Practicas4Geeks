@@ -1,0 +1,6 @@
+2026-06-12 09:14:22 INFO  login usuario=ana.garcia@innova.es ip=192.168.1.45 resultado=ok
+2026-06-12 09:15:01 WARN  intento_fallido ip=10.0.0.99 usuario=desconocido
+2026-06-12 09:16:33 INFO  descarga fichero=nominas.xlsx usuario=bruno.martin@innova.es
+2026-06-12 09:18:47 INFO  login usuario=carla.ruiz@innova.es ip=192.168.1.52 resultado=ok
+2026-06-12 09:20:10 INFO  acceso_api token=sk-test-abc123DEF456ghi789jkl ip=192.168.1.45
+2026-06-12 09:22:55 ERROR backup fallido destino=/mnt/backups codigo=500

@@ -1,0 +1,5 @@
+# Phase 2 (optional): comparison with Microsoft Presidio.
+# Phase 1 (mini_dlp.py) does NOT need any of these dependencies.
+presidio-analyzer
+presidio-anonymizer
+spacy

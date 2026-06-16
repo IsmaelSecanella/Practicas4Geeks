@@ -1,0 +1,10 @@
+ ¿Cuántos datos de sensibilidad HIGH encontró tu programa?
+14
+
+¿Por qué el número de pedido 1234 5678 9012 3456 no se marcó como tarjeta?
+por que no cumple el algoritmo de Luhn
+
+Si tuvieras que aplicar un control DLP a estos ficheros, ¿cuál pondrías y en qué carpeta? Relaciónalo con la teoría del módulo
+primero separaria los datos HIGH de los MEDIUM para que no esten en las mismas carpetas y luego con los HIGH haria un bloqueo
+ y cifrado para que no se puedan ver ni enviar esos datos de ninguna manera. Con los datos MEDIUM haria un enmascaramiento, ya
+ que si son de uso comun como los correos bloquearlos seria un problema.

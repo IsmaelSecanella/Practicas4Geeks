@@ -1,0 +1,5 @@
+id,nombre,email,dni,iban,telefono,departamento,salario_bruto
+1,Ana García López,ana.garcia@innova.es,12345678Z,ES9121000418450200051332,+34 612 345 678,RRHH,38000
+2,Bruno Martín Sanz,bruno.martin@innova.es,53987654F,ES6000491500051234567892,633 221 144,Finanzas,41000
+3,Carla Ruiz Pérez,carla.ruiz@innova.es,11111111H,ES7720850205550000033445,+34 711 002 003,Desarrollo,36500
+4,David Soto Niño,david.soto@innova.es,00000001R,ES9121000418450200051332,622 100 200,Desarrollo,36500
